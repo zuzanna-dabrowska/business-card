@@ -12,6 +12,9 @@ html {
     background: #2C2141;
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .main {
@@ -19,4 +22,37 @@ html {
     width: 624px;
     border-radius: 16px;
     padding: 32px;
+    margin: 16px;
   }
+
+  .person {
+    margin: 0;
+  }
+
+  .person__name {
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+  }
+
+  .person__position {
+    margin: 0;
+    font-size: 18px;
+    color: #545454;
+    font-style: italic;
+  }
+
+.person__info {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.special {
+  color: #ED6D05;
+  font-weight: normal;
+}
+
+.person__link {
+  color: #E20613;
+  text-decoration: none;
+}
